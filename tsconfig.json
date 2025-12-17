@@ -1,20 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "lib": ["ES2020"],
-    "types": ["node", "express", "multer"],
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
+    "target": "es2020",
+    "module": "commonjs",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   },
-  "include": [
-    "api/**/*.ts",
-    "src/**/*.ts",
-    "src/types/**/*.d.ts"
-  ],
+  "include": ["src/**/*.ts", "middleware/**/*.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,5 +1,5 @@
-import { RetrievedContext } from "./retrieveContext.js";
-import { openai } from "../clients/openaiClient.js";
+import { RetrievedContext } from "./retrieveContext";
+import { openai } from "../clients/openaiClient";
 
 /**
  * Result returned from the LLM

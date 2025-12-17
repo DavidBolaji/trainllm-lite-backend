@@ -1,5 +1,5 @@
-import { detectIntent, Intent } from "./detectIntent.js";
-import { askQuestion } from "../rag/ragPipline.js";
+import { detectIntent, Intent } from "./detectIntent";
+import { askQuestion } from "../rag/ragPipline";
 
 interface ConversationTurn {
   question: string;
