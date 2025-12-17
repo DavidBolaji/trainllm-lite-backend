@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { LLMAnswer } from "../rag/generateAnswer.js";
+import { LLMAnswer } from "../rag/generateAnswer";
 
 const FEEDBACK_FILE = path.join(process.cwd(), "data", "feedback.json");
 
