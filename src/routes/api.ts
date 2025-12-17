@@ -1,4 +1,4 @@
-import express from "express";
+import express,{ Request, Response } from "express";
 import multer from "multer";
 import fs from "fs";
 import { workflowRouter } from "../workflows/router";
@@ -45,7 +45,7 @@ const upload = multer({
 }); // temp storage for audio files
 
 // Text question route
-router.post("/question", async (req, res) => {
+router.post("/question", async (req: Request, res:Response) => {
   try {
     const { question, language, conversation } = req.body;
     
@@ -105,7 +105,7 @@ router.post("/question", async (req, res) => {
 });
 
 // Audio question route
-router.post("/audio", upload.single("audio"), async (req, res) => {
+router.post("/audio", upload.single("audio"), async (req:Request, res:Response) => {
   try {
     if (!req.file) return res.status(400).json({ error: "No audio uploaded" });
 
@@ -176,7 +176,7 @@ router.post("/audio", upload.single("audio"), async (req, res) => {
 });
 
 // Feedback route (for optional user ratings)
-router.post("/feedback", (req, res) => {
+router.post("/feedback", (req: Request, res: Response) => {
   try {
     const { question, answer, sources, rating } = req.body;
     captureUserFeedback({ text: answer, sources }, question, rating);
