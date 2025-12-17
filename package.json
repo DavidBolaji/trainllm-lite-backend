@@ -2,12 +2,18 @@
   "name": "trainllm-lite-backend",
   "version": "1.0.0",
   "description": "trainllm",
-  "main": "main.js",
+  "main": "dist/main.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "ts-node src/main.ts",
-    "dev": "nodemon",
+    "start": "node dist/main.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "build": "tsc",
-    "vercel-build": "echo hello"
+    "postbuild": "echo 'Build completed successfully'",
+    "render-build": "npm run build",
+    "test-build": "node scripts/test-build.js",
+    "clean": "rm -rf dist"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: trainllm-lite-backend
+    env: node
+    plan: free
+    buildCommand: pnpm run build
+    startCommand: pnpm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: KEEP_ALIVE_ENABLED
+        value: true
+      - key: KEEP_ALIVE_INTERVAL_MINUTES
+        value: 14
+    # Environment variables that need to be set in Render dashboard:
+    # - OPENAI_API_KEY
+    # - PINECONE_API_KEY
+    # - PINECONE_ENVIRONMENT
+    # - PINECONE_INDEX
