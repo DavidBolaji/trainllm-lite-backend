@@ -1,11 +1,11 @@
 import express,{ Request, Response } from "express";
 import multer from "multer";
 import fs from "fs";
-import { workflowRouter } from "../workflows/router";
-import { speechToText } from "../services/speechToText";
-import { translateText } from "../services/translate";
-import { captureAIFeedback, captureUserFeedback } from "../eval/feedback";
-import { evaluateResponse } from "../eval/evaluateResponse";
+import { workflowRouter } from "../workflows/router.js";
+import { speechToText } from "../services/speechToText.js";
+import { translateText } from "../services/translate.js";
+import { captureAIFeedback, captureUserFeedback } from "../eval/feedback.js";
+import { evaluateResponse } from "../eval/evaluateResponse.js";
 
 const router = express.Router();
 const upload = multer({ 

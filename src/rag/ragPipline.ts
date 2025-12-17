@@ -1,9 +1,9 @@
-import { loadDocuments } from "./loadDocuments";
-import { chunkDocuments } from "./chunkDocuments";
-import { getVectorStore } from "./vectorStore"; // Pinecone-backed
-import { retrieveContext, RetrievedContext } from "./retrieveContext";
-import { buildPrompt } from "./buildPrompt";
-import { generateAnswer, LLMAnswer } from "./generateAnswer";
+import { loadDocuments } from "./loadDocuments.js";
+import { chunkDocuments } from "./chunkDocuments.js";
+import { getVectorStore } from "./vectorStore.js"; // Pinecone-backed
+import { retrieveContext, RetrievedContext } from "./retrieveContext.js";
+import { buildPrompt } from "./buildPrompt.js";
+import { generateAnswer, LLMAnswer } from "./generateAnswer.js";
 
 interface ConversationTurn {
   question: string;

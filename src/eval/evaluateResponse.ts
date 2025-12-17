@@ -1,5 +1,5 @@
-import { LLMAnswer } from "../rag/generateAnswer";
-import { openai } from "../clients/openaiClient";
+import { LLMAnswer } from "../rag/generateAnswer.js";
+import { openai } from "../clients/openaiClient.js";
 
 export interface DetailedEvaluation {
   overallScore: number;

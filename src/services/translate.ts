@@ -1,4 +1,4 @@
-import { openai } from "../clients/openaiClient";
+import { openai } from "../clients/openaiClient.js";
 
 /**
  * Translate text to target language

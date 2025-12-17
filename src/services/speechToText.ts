@@ -1,5 +1,5 @@
 import fs from "fs";
-import { openai } from "../clients/openaiClient";
+import { openai } from "../clients/openaiClient.js";
 
 /**
  * Options for speech-to-text

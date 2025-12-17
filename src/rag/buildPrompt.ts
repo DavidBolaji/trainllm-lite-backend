@@ -1,4 +1,4 @@
-import { RetrievedContext } from "./retrieveContext";
+import { RetrievedContext } from "./retrieveContext.js";
 
 /**
  * Build a prompt for the LLM using retrieved context
