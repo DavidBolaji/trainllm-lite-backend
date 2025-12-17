@@ -1,4 +1,5 @@
-import express, { Request, Response } from "express";
+import express from "express";
+import type { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import apiRouter from "../src/routes/api.js";
@@ -6,7 +7,6 @@ import apiRouter from "../src/routes/api.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());

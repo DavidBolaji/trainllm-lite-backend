@@ -1,4 +1,4 @@
-import { openai } from "../clients/openaiClient";
+import { openai } from "../clients/openaiClient.js";
 
 export type Intent =
   | "visa_eligibility"
