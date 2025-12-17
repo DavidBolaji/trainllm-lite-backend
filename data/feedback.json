@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Est-ce que je suis éligible pour un visa de travail au Royaume-Uni ?",
+    "answer": "Selon le contexte fourni dans la FAQ sur les visas du Royaume-Uni, vous pourriez être éligible pour un visa de travailleur qualifié au Royaume-Uni si vous remplissez les critères clés tels que posséder un Certificat de Sponsorisation valide, une offre d'emploi qui respecte le seuil minimum de compétences et de salaire, une preuve de maîtrise de la langue anglaise, et des fonds suffisants pour subvenir à vos besoins (Source : uk_visa_faq.txt).",
+    "sources": [
+      "uk_visa_faq.txt"
+    ],
+    "ai_score": 0.865,
+    "ai_reason": "The response accurately outlines the key requirements for a Skilled Worker Visa in the UK.; The citation provided adds credibility to the information given.",
+    "timestamp": "2025-12-17T07:21:54.653Z",
+    "language": "fr"
+  },
+  {
+    "question": "Quel montant sera considéré comme suffisant pour subvenir à vos besoins ?",
+    "answer": "Le montant considéré comme suffisant pour répondre à vos besoins peut varier en fonction de facteurs tels que vos dépenses de subsistance, les coûts d'hébergement et vos choix de mode de vie. Pour fournir une estimation plus précise, pourriez-vous s'il vous plaît fournir des détails tels que la durée prévue de votre séjour, les activités prévues et toute obligation financière spécifique que vous pourriez avoir ?",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.7849999999999999,
+    "ai_reason": "Improper citation format; The response accurately addresses the factors influencing the amount needed to meet one's needs.; Legal terminology and requirements are not explicitly mentioned, which could enhance legal accuracy.",
+    "timestamp": "2025-12-17T07:25:28.609Z",
+    "language": "fr"
+  },
+  {
+    "question": "Je prévois de séjourner au Royaume-Uni pour une durée de 24 mois. Je compte principalement y travailler à temps plein et mes dépenses couvriront le logement, la nourriture, le transport et les besoins essentiels. Je n’ai pas d’obligations financières particulières en dehors de mes frais de subsistance habituels",
+    "answer": "Pour mieux estimer le montant des fonds nécessaires pour votre séjour de 24 mois au Royaume-Uni couvrant l'hébergement, la nourriture, le transport et les besoins essentiels, pourriez-vous s'il vous plaît fournir des détails tels que les dépenses mensuelles prévues pour chaque catégorie et toutes préférences ou exigences spécifiques que vous pourriez avoir concernant votre mode de vie pendant votre séjour ?",
+    "sources": [
+      "uk_visa_faq.txt"
+    ],
+    "ai_score": 0.615,
+    "ai_reason": "Improper citation format; The response correctly asks for details to estimate the required funds, which is a legal requirement for visa applications.; However, it lacks specific legal information regarding visa categories, financial thresholds, or supporting documents needed for a long-term stay.",
+    "timestamp": "2025-12-17T07:30:21.436Z",
+    "language": "fr"
+  },
+  {
+    "question": "[Mock transcription] Audio could not be processed.",
+    "answer": "Le contexte fourni met l'accent sur les défis auxquels sont confrontés les membres de la diaspora, notamment les barrières linguistiques et de communication, ainsi que les services de soutien disponibles tels que la traduction, l'interprétation, la formation linguistique et les services financiers tels que les plateformes de transfert d'argent internationales et les solutions de paiement mobile.",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.85,
+    "ai_reason": "Improper citation format; The response accurately addresses the challenges faced by diaspora members and the available support services related to language and communication barriers.; The terminology used is appropriate and relevant to the immigration context.",
+    "timestamp": "2025-12-17T07:39:40.081Z",
+    "language": "fr"
+  },
+  {
+    "question": "[Mock transcription] Audio could not be processed.",
+    "answer": "The provided context focuses on the challenges faced by diaspora members, including language and communication barriers, and the available support services such as translation, interpretation, language training programs, and financial services like international money transfer platforms.",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.85,
+    "ai_reason": "Improper citation format",
+    "timestamp": "2025-12-17T07:40:24.525Z",
+    "language": "en"
+  },
+  {
+    "question": "[Mock transcription] Audio could not be processed.",
+    "answer": "The provided context does not contain information related to audio processing. Could you please provide more details about the specific issue you are facing with audio processing in the context of immigration and diaspora services?",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.7849999999999999,
+    "ai_reason": "Improper citation format; The response correctly identifies the lack of information related to audio processing in the context of immigration and diaspora services.; The response asks for more details to better understand the specific issue faced by the user.",
+    "timestamp": "2025-12-17T09:01:04.901Z",
+    "language": "en"
+  },
+  {
+    "question": "[Mock transcription] Audio could not be processed.",
+    "answer": "The provided context does not contain information relevant to the user's question. Could you please provide more details or clarify your question?",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.5650000000000001,
+    "ai_reason": "Improper citation format; The response lacks specific legal information or guidance related to the user's question.; While the response asks for more details, it does not provide any initial guidance or direction.",
+    "timestamp": "2025-12-17T09:02:53.454Z",
+    "language": "en"
+  },
+  {
+    "question": "[Mock transcription] Audio could not be processed.",
+    "answer": "I do not have enough information to provide a complete answer. Could you please provide more details about your inquiry related to immigration and diaspora services? For example, are you looking for information on language support, financial services, or something else?",
+    "sources": [
+      "diaspora_services.txt"
+    ],
+    "ai_score": 0.7849999999999999,
+    "ai_reason": "Improper citation format; The response correctly asks for more information to provide accurate guidance on immigration and diaspora services.; Legal terminology and requirements are not explicitly mentioned in the response.",
+    "timestamp": "2025-12-17T09:14:33.276Z",
+    "language": "en"
+  },
+  {
+    "question": "Can I bring my family on a student visa?",
+    "answer": "Based on the provided context, family members can join the main applicant on a UK Student Visa. (Source: uk_visa_faq.txt)",
+    "sources": [
+      "uk_visa_faq.txt"
+    ],
+    "ai_score": 1,
+    "ai_reason": "",
+    "timestamp": "2025-12-17T09:17:56.520Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "The provided context does not specify the exact documents needed for Canadian Permanent Residence (PR). To provide a more accurate answer, could you please specify your current immigration status or the specific pathway you are applying through for Canadian PR?",
+    "sources": [
+      "canada_immigrations.txt"
+    ],
+    "ai_score": 0.7849999999999999,
+    "ai_reason": "Improper citation format; The response correctly asks for more specific information to provide accurate guidance on Canadian PR documents.; Legal terminology and requirements are accurately addressed.",
+    "timestamp": "2025-12-17T11:57:56.290Z",
+    "language": "en"
+  }
+]
