@@ -5,7 +5,7 @@ import { Document } from '@langchain/core/documents'
 /**
  * Directory where raw text documents are stored
  */
-const DOCUMENTS = path.join(process.cwd(), "..", "data", "documents");
+const DOCUMENTS = path.join(process.cwd(), "data", "documents");
 
 /**
  * Infer country or domain from filename

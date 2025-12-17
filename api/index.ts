@@ -21,9 +21,11 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
+export default app;
+
+
+
 // Start server
 // app.listen(PORT, () => {
 //   console.log(`Backend server running on port ${PORT}`);
 // });
-
-export default app;
