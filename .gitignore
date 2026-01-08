@@ -61,3 +61,6 @@ uploads/*
 !uploads/.gitkeep
 
 DEPLOYMENT.md
+scripts
+docs
+start.js
