@@ -2,16 +2,16 @@
   "name": "trainllm-lite-backend",
   "version": "1.0.0",
   "description": "trainllm",
-  "main": "dist/index.js",
+  "main": "node dist/index.js",
   "engines": {
-    "node": ">=18.0.0"
+   "node": "20.x"
   },
   "scripts": {
     "start": "node dist/index.js",
     "start:prod": "node dist/index.js",
-    "start:dev": "ts-node src/index.ts",
+    "start:dev": "ts-node node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
-    "build": "npm run clean && tsc && npm run postbuild",
+    "build": "tsc",
     "prebuild": "echo 'Starting build process...'",
     "postbuild": "echo 'Build completed successfully' && dir dist || echo 'dist directory not found'",
     "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
