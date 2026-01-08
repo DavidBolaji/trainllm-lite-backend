@@ -3,7 +3,7 @@ services:
     name: trainllm-lite-backend
     env: node
     plan: free
-    buildCommand: pnpm install && pnpm run build
+    buildCommand: pnpm install --frozen-lockfile && pnpm run build
     startCommand: pnpm start
     healthCheckPath: /health
     envVars:
