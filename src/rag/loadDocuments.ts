@@ -5,7 +5,16 @@ import { Document } from '@langchain/core/documents'
 /**
  * Directory where raw text documents are stored
  */
-const DOCUMENTS = path.join(process.cwd(), "..", "data", "documents");
+let DOCUMENTS = path.join(process.cwd(), "data", "documents");
+if (!fs.existsSync(DOCUMENTS)) {
+  DOCUMENTS = path.join(process.cwd(), "backend", "data", "documents");
+}
+
+console.log(`[loadDocuments] Using documents directory: ${DOCUMENTS}`);
+
+if (!fs.existsSync(DOCUMENTS)) {
+  throw new Error(`[loadDocuments] Documents directory does not exist: ${DOCUMENTS}`);
+}
 
 /**
  * Infer country or domain from filename

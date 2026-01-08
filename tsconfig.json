@@ -5,7 +5,7 @@
     "moduleResolution": "Node",
     "lib": ["ES2020"],
     "types": ["node"],
-    "rootDir": ".",
+    "rootDir": "src",
     "outDir": "dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,

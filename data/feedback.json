@@ -108,5 +108,81 @@
     "ai_reason": "Improper citation format; The response correctly asks for more specific information to provide accurate guidance on Canadian PR documents.; Legal terminology and requirements are accurately addressed.",
     "timestamp": "2025-12-17T11:57:56.290Z",
     "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.55,
+    "ai_reason": "No sources cited; The response did not provide any information related to the documents needed for Canadian PR, failing to address the legal accuracy, completeness, clarity, and actionability of the query.",
+    "timestamp": "2026-01-08T22:00:20.728Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.4900000000000001,
+    "ai_reason": "No sources cited; The response did not provide any information related to the user's question on the documents needed for Canadian PR.",
+    "timestamp": "2026-01-08T22:01:09.462Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.55,
+    "ai_reason": "No sources cited; The response does not provide any information related to the original question on Canadian PR documents.",
+    "timestamp": "2026-01-08T22:01:35.058Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.55,
+    "ai_reason": "No sources cited; The response does not provide any information related to the original question on Canadian PR documents.",
+    "timestamp": "2026-01-08T22:05:39.414Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.55,
+    "ai_reason": "No sources cited; The response does not provide any information related to the original question on Canadian PR documents.",
+    "timestamp": "2026-01-08T22:08:23.101Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR",
+    "answer": "Sorry, something went wrong while processing your request.",
+    "sources": [],
+    "ai_score": 0.4900000000000001,
+    "ai_reason": "No sources cited; The response does not provide any information related to the legal requirements for Canadian PR documents.",
+    "timestamp": "2026-01-08T22:11:25.458Z",
+    "language": "en"
+  },
+  {
+    "question": "What documents do I need for Canadian PR?",
+    "answer": "I do not have enough information to provide a complete answer. Could you please specify your current immigration status or which specific pathway you are considering for Canadian Permanent Residence? Additionally, do you have any family members in Canada who are Canadian citizens or permanent residents that could potentially sponsor you?",
+    "sources": [
+      "canada_immigrations.txt"
+    ],
+    "ai_score": 0.7849999999999999,
+    "ai_reason": "Improper citation format; The response correctly asks for specific details to provide accurate information.; Legal terminology and requirements are accurately addressed.",
+    "timestamp": "2026-01-08T22:15:00.651Z",
+    "language": "en"
+  },
+  {
+    "question": "I am currently residing outside Canada and do not yet have permanent resident status. I am exploring economic immigration pathways, particularly Express Entry and other skilled worker programs. I do not have any family members in Canada who are Canadian citizens or permanent residents who could sponsor me at this time.",
+    "answer": "Based on your current situation and interest in economic immigration pathways like Express Entry, you may qualify for Canada's skilled worker programs under the Express Entry system. These programs include the Federal Skilled Worker Program, Federal Skilled Trades Program, and Canadian Experience Class. To apply, you will need to meet specific eligibility criteria and create an Express Entry profile to be considered for immigration to Canada.",
+    "sources": [
+      "canada_immigrations.txt"
+    ],
+    "ai_score": 0.88,
+    "ai_reason": "Improper citation format; The response accurately mentions the relevant skilled worker programs under Express Entry.; The legal requirements and terminology are correctly explained.",
+    "timestamp": "2026-01-08T22:17:45.445Z",
+    "language": "en"
   }
 ]
