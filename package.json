@@ -7,8 +7,8 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "node start.js",
-    "start:prod": "node dist/main.js",
+    "start": "node dist/src/main.js",
+    "start:prod": "node dist/src/main.js",
     "start:dev": "ts-node src/main.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "build": "npm run clean && tsc && npm run postbuild",
