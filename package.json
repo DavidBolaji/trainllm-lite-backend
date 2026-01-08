@@ -13,8 +13,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "build": "npm run clean && tsc && npm run postbuild",
     "prebuild": "echo 'Starting build process...'",
-    "postbuild": "echo 'Build completed successfully' && ls -la dist/ || echo 'dist directory not found'",
-    "clean": "rm -rf dist",
+    "postbuild": "echo 'Build completed successfully' && dir dist || echo 'dist directory not found'",
+    "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
     "test-build": "node scripts/test-build.js"
   },
   "keywords": [],
